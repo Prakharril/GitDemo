@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="purchase"/>
+        </run>
+    </groups>
+    <test name="Test Suite">
+        <classes>
+            <class name="StandAloneTest"/>
+        </classes>
+    </test>
+</suite>
